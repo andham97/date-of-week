@@ -1,4 +1,5 @@
-Date of Week [![Build Status](https://travis-ci.org/andham97/date-of-week.svg?branch=master)](https://travis-ci.org/andham97/date-of-week)
+Date of Week
+[![Build Status](https://travis-ci.org/andham97/date-of-week.svg?branch=master)](https://travis-ci.org/andham97/date-of-week)
 =========
 
 A small library that get the next date with the specified day
