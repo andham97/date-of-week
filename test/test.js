@@ -9,32 +9,32 @@ describe('#numFormatter', function() {
         expect(result.getDay()).to.equal(0);
     });
 
-    it('should create sunday date', function() {
+    it('should create monday date', function() {
         var result = numFormatter(1);
         expect(result.getDay()).to.equal(1);
     });
 
-    it('should create sunday date', function() {
+    it('should create tuesday date', function() {
         var result = numFormatter(2);
         expect(result.getDay()).to.equal(2);
     });
 
-    it('should create sunday date', function() {
+    it('should create wednesday date', function() {
         var result = numFormatter(3);
         expect(result.getDay()).to.equal(3);
     });
 
-    it('should create sunday date', function() {
+    it('should create thursday date', function() {
         var result = numFormatter(4);
         expect(result.getDay()).to.equal(4);
     });
 
-    it('should create sunday date', function() {
+    it('should create friday date', function() {
         var result = numFormatter(5);
         expect(result.getDay()).to.equal(5);
     });
 
-    it('should create sunday date', function() {
+    it('should create saturday date', function() {
         var result = numFormatter(6);
         expect(result.getDay()).to.equal(6);
     });
