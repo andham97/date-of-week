@@ -1,4 +1,4 @@
-Date of Week
+Date of Week https://travis-ci.org/andham97/date-of-week.svg?branch=master
 =========
 
 A small library that get the next date with the specified day
