@@ -53,4 +53,9 @@ describe('#numFormatter', function() {
         var result = numFormatter(0.9);
         expect(result.getDay()).to.equal(0);
     });
+
+    it('should return exact same date', function(){
+        var result = numFormatter(0);
+        expect(result).to.equal(numFormatter(0));
+    })
 });
