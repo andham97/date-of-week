@@ -7,6 +7,7 @@ module.exports = function (dayOfWeek) {
     date.setHours(23);
     date.setMinutes(59);
     date.setSeconds(59);
+    date.setMilliseconds(999);
     var resultDate = new Date(date.getTime());
 
     resultDate.setDate(date.getDate() + (7 + dayOfWeek - date.getDay()) % 7);
