@@ -1,6 +1,6 @@
 {
   "name": "date-of-week",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple module allowing to simply get the date object of the next day with the current day",
   "main": "index.js",
   "scripts": {
